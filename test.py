@@ -26,7 +26,7 @@ def Telechat():
     if (finalprice) < "30000" and (finalprice) > "25000" :
         pass
     else:
-        my_token = '1846958060:AAH0vB6Su8bhRVDXM78BVqhYYjIWyp-gQzc'
+        my_token = 'YOUR TOKEN'
 
         def send(msg, chat_id, token=my_token):
             bot = telegram.Bot(token=token)
